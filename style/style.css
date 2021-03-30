@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+* {
+    text-align: center;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    background: -webkit-linear-gradient(45deg, #258f33, #322c82);
+    background: linear-gradient(45deg, #258f33, #322c82);
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+.btn-style {
+    font-family: 'Patrick Hand', cursive;
+    padding: 5px;
+    color: black;
+    text-transform: lowercase;
+    border: none;
+    background-color: #322c82;
+    border-radius: 7%;
+}
+
+.btn-style:hover {
+    background-color: #322c82;
+    color: white;
+}
+.container-btn {
+    margin: 50px;
+}
+.image-container {
+  margin-bottom: 20px;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(104, 1, 1, 0.1);
+}
+
+tr:hover {
+    background-color: #258f33;
+}
+
+h1 {
+    color: white;
+}
+thead th {
+    background-color: #322c82;
+}
+th,td {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+label {
+    color: #FFF;
+    font-family: 'Patrick Hand', cursive;
+}
+input {
+    border: none;
+    color: #FFF;
+    outline: 0;
+    padding: 7px 0;
+    background: transparent;
+}
