@@ -42,9 +42,15 @@ function player_add() {
     empates: 0,
     derrotas: 0,
     pontos: 0,  
+    playerName = ""
   }
   jogadores.push(newPlayer)
   exibirJogadores(jogadores)
+  //Tratamento de erros
+  if(playerName.length == 0) {
+    alert("Digite um nick válido !")
+  }
+  
 }
 
 //Reiniciando os pontos do jogo
